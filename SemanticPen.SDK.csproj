@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>SemanticPen.SDK</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>SemanticPen Team</Authors>
     <Company>SemanticPen</Company>
     <Description>Official C# SDK for SemanticPen API - AI-powered content generation</Description>
