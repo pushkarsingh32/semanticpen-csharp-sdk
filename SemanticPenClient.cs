@@ -92,11 +92,11 @@ namespace SemanticPen.SDK
             string errorMessage = responseBody;
             try
             {
-                var errorObj = JsonConvert.DeserializeObject<dynamic>(responseBody);
-                if (errorObj?.message != null)
-                    errorMessage = errorObj.message.ToString();
-                else if (errorObj?.error != null)
-                    errorMessage = errorObj.error.ToString();
+                var errorObj = JsonConvert.DeserializeObject<Newtonsoft.Json.Linq.JObject>(responseBody);
+                if (errorObj?["message"] != null)
+                    errorMessage = errorObj["message"].ToString();
+                else if (errorObj?["error"] != null)
+                    errorMessage = errorObj["error"].ToString();
             }
             catch
             {
