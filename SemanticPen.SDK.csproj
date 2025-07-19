@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>SemanticPen.SDK</PackageId>
-    <PackageVersion>1.0.5</PackageVersion>
+    <PackageId>SemanticPen</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>SemanticPen Team</Authors>
     <Company>SemanticPen</Company>
     <Description>Official C# SDK for SemanticPen API - AI-powered content generation</Description>
@@ -13,6 +13,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>ai;content;generation;semantic;pen;api;sdk</PackageTags>
     <PackageReleaseNotes>Initial release of SemanticPen C# SDK</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright (c) 2025 SemanticPen Team</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
@@ -23,6 +24,10 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
     <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

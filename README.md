@@ -7,13 +7,13 @@ Official C# SDK for the SemanticPen API - AI-powered content generation made sim
 Install the package via NuGet Package Manager:
 
 ```bash
-dotnet add package SemanticPen.SDK
+dotnet add package SemanticPen
 ```
 
 Or via Package Manager Console:
 
 ```
-Install-Package SemanticPen.SDK
+Install-Package SemanticPen
 ```
 
 ## Quick Start
